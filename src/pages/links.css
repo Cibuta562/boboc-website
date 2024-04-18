@@ -100,11 +100,7 @@
     }
 
     .credits{
-        position: absolute;
-        bottom: 10px;
-        left: 0;
-        width: 100%;
-        margin-bottom: 10px;
+        padding-top: 20px;
     }
 
 }
