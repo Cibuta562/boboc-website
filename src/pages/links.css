@@ -1,0 +1,112 @@
+@media only screen and (max-width: 600px) {
+
+
+    .social-icons a {
+        margin: 0 15px; /* Adjust spacing between icons as needed */
+    }
+
+    .social-icons{
+        padding-bottom: 10px;
+    }
+
+    .social-icons a i {
+        color: black; /* Set icon color */
+        font-size: 24px; /* Adjust icon size as needed */
+    }
+
+
+    .img-bg{
+        width: 100%;
+        background-color: #777777;
+        height: 200px;
+        background-image: url("../assets/milad-fakurian-3hIaqX3VuXE-unsplash.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .curve-dec{
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        height: 100px;
+        border-radius: 25%;
+        margin-top: -30px;
+    }
+
+    .picture-circle{
+        position: absolute;
+        top: 120px;
+        height: 130px;
+        width: 130px;
+        background-color: white;
+        margin-left: 34.5%;
+        margin-right: 34.5%;
+        border-radius: 65px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .picture-frame{
+        height: 110px;
+        width: 110px;
+        border: solid 4px #ffffff;
+        border-radius: 60px;
+        background-image: url("../assets/IMG_6815 4-modified.JPG");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .content-links{
+        background-color: #ffffff;
+        width: 100%;
+        justify-content: center;
+        /*align-items: center;*/
+    }
+
+    .title-name{
+        color: black;
+        font-size: 28px;
+        font-family: Lato;
+        font-weight: 700;
+        margin: 0px;
+    }
+
+    .function-name{
+        margin: 12px;
+    }
+
+    .links-list{
+        margin-top: 40px;
+    }
+
+    .links-socials{
+        height: 50px;
+    }
+
+    .links-padding{
+        height: 50px;
+        background-color: #FAC308;
+        margin: 20px 8%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .links-p{
+         font-family: Lato;
+         font-size: 18px;
+    }
+
+    .credits{
+        padding-top: 85px;
+    }
+
+}
+
+
+
+@media only screen and (min-width: 600px) {
+
+}
