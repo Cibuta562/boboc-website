@@ -1,5 +1,5 @@
 import "./links.css"
-import { FaLinkedin, FaInstagram, FaWhatsapp } from 'react-icons/fa';
+import { FaLinkedin, FaEnvelope, FaWhatsapp } from 'react-icons/fa';
 
 
 function Links() {
@@ -21,24 +21,24 @@ function Links() {
                 <p className="function-name">web developer</p>
                 <div className="links-list">
                     <div className="social-icons">
-                        <a href="https://api.whatsapp.com/send?phone=1234567890" target="_blank" rel="noopener noreferrer"><FaWhatsapp style={{ color: 'black', fontSize: '30px' }} /></a>
                         <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"><FaLinkedin style={{ color: 'black', fontSize: '30px' }} /></a>
-                        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><FaInstagram style={{ color: 'black', fontSize: '30px' }} /></a>
+                        <a href="https://api.whatsapp.com/send?phone=40723344599" target="_blank" rel="noopener noreferrer"><FaWhatsapp style={{ color: 'black', fontSize: '30px' }} /></a>
+                        <a href="mailto:your-email@example.com"><FaEnvelope style={{ color: 'black', fontSize: '30px' }} /></a>
                     </div>
                     <div className="links-padding">
                         <a className="links-p">generationsalez.com</a>
                     </div>
                     <div className="links-padding">
-                        <a className="links-p">portfolio</a>
+                        <a className="links-p">Portfolio</a>
                     </div>
                     <div className="links-padding">
-                        <a className="links-p">contact form</a>
+                        <a className="links-p">Contact Form</a>
                     </div>
                     <div className="links-padding">
-                        <a className="links-p">github</a>
+                        <a className="links-p">Github</a>
                     </div>
                     <div className="links-padding">
-                        <a className="links-p">roasted.ro</a>
+                        <a className="links-p">Puzzle Studios</a>
                     </div>
                     <div className="credits">
                         <a className="links-down">© generation salez 2024</a>
