@@ -52,7 +52,7 @@
         width: 110px;
         border: solid 4px #ffffff;
         border-radius: 60px;
-        background-image: url("../assets/IMG_6815 4-modified.JPG");
+        background-image: url("../assets/boboc.JPG");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -97,6 +97,8 @@
     .links-p{
          font-family: Lato;
          font-size: 18px;
+        text-decoration: none;
+        color: black;
     }
 
     .credits{
