@@ -25,7 +25,7 @@
     .img-bg{
         width: 100%;
         background-color: #777777;
-        height: 150px;
+        height: 0px;
         background-image: url("../assets/milad-fakurian-3hIaqX3VuXE-unsplash.jpg");
         background-position: center;
         background-repeat: no-repeat;
@@ -43,7 +43,7 @@
 
     .picture-circle{
         position: absolute;
-        top: 10.5vh;
+        top: 5.5vh;
         margin-left: auto;
         margin-right: auto;
         width: 120px;
@@ -196,7 +196,7 @@
         background-color: #ffffff;
         width: 40%;
         border-radius: 15px;
-        height: 83vh;
+        height: 90vh;
         margin-bottom: 0px;
     }
 
