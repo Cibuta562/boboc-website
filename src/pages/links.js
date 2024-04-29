@@ -4,13 +4,13 @@ import { FaLinkedin, FaEnvelope, FaWhatsapp } from 'react-icons/fa';
 
 function Links() {
     return(
-        <div style={{ height: "100vh;"}}>
+        <div className="div-bg" style={{ height: "100vh", display: "grid", placeItems: "center"}}>
             <div className="img-bg">
 
             </div>
-            <div className="curve-dec">
+            {/*<div className="curve-dec">*/}
 
-            </div>
+            {/*</div>*/}
             <div className="picture-circle">
                 <div className="picture-frame">
 
@@ -25,24 +25,34 @@ function Links() {
                         <a href="https://api.whatsapp.com/send?phone=40723344599" target="_blank" rel="noopener noreferrer"><FaWhatsapp style={{ color: 'black', fontSize: '30px' }} /></a>
                         <a href="mailto:andreiboboccibo@gmail.com"><FaEnvelope style={{ color: 'black', fontSize: '30px' }} /></a>
                     </div>
+                    <a href="https://generationsalez.com" target="_blank" className="links-p">
                     <div className="links-padding">
-                        <a href="https://generationsalez.com" target="_blank" className="links-p">generationsalez.com</a>
+                        Generation Salez
                     </div>
+                    </a>
                     <div className="links-padding">
                         <a className="links-p">Portfolio</a>
                     </div>
+                    <a className="links-p">
                     <div className="links-padding">
-                        <a className="links-p">Contact Form</a>
+                        Contact Form
                     </div>
+                    </a>
+                    <a href="https://github.com/Cibuta562" target="_blank" className="links-p">
                     <div className="links-padding">
-                        <a href="https://github.com/Cibuta562" target="_blank" className="links-p">Github</a>
+                        Github
                     </div>
+                    </a>
+                    <a href="https://linktr.ee/puzzle_studio" target="_blank" className="links-p">
                     <div className="links-padding">
-                        <a href="https://linktr.ee/puzzle_studio" target="_blank" className="links-p">Puzzle Studios</a>
+                    Puzzle Studios
                     </div>
+                    </a>
+                    <a href="https://generationsalez.com" className="links-down">
                     <div className="credits">
-                        <a className="links-down">© generation salez 2024</a>
+                        © generation salez 2024
                     </div>
+                    </a>
                 </div>
             </div>
         </div>
