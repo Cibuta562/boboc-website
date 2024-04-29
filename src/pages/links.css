@@ -63,6 +63,9 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .content-links{
@@ -170,7 +173,7 @@
 
     .picture-circle{
         position: absolute;
-        top: 4vh;
+        top: 1vh;
         margin-left: auto;
         margin-right: auto;
         width: 120px;
@@ -206,7 +209,7 @@
         font-family: Lato;
         font-weight: 700;
         margin: 5px;
-        padding-top: 60px;
+        padding-top: 100px;
     }
 
     .function-name{
