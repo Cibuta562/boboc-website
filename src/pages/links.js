@@ -4,7 +4,7 @@ import { FaLinkedin, FaEnvelope, FaWhatsapp } from 'react-icons/fa';
 
 function Links() {
     return(
-        <div className="div-bg" style={{ height: "100vh", display: "grid", placeItems: "center"}}>
+        <div className="div-bg" style={{display: "grid", placeItems: "center"}}>
             <div className="img-bg">
 
             </div>
