@@ -47,6 +47,8 @@
         width: 120px;
         background-color: white;
         border-radius: 65px;
+        margin-left: 34.5%;
+        margin-right: 34.5%;
         display: flex;
         justify-content: center;
         align-items: center;
